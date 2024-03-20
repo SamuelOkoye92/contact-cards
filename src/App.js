@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import ContactCard from "./ContactCard";
+import Form from "./Form";
 
 const App = () => {
   const [results, setResults] = useState([]);
@@ -27,6 +28,7 @@ const App = () => {
           />
         );
       })}
+      <Form />
     </>
   );
 };

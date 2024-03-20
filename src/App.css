@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(198, 217, 217);
+}
 .card{
   background-color: rgb(109, 145, 251);
   display: flex;
@@ -10,4 +13,43 @@
   width: 25%;
   height: 25%;
   padding: 15px;
+}
+
+.formContainer{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.resgisterButton{
+  background-color: rgb(10, 19, 180);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 60px;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 5px 0 5px 0;
+  width: 100%;
+}
+
+.form-field{
+  margin: 5px 0 5px 0;
+}
+
+.alert{
+  display: flex;
+  background-color: rgb(255, 238, 0);
+  width: 100%;
+  padding: 5px 0 5px 0;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.warning{
+  color: rgb(255, 0, 0);
+  font-size: 10px;
 }
